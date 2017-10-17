@@ -1,0 +1,47 @@
+h1{
+    font-weight: enable;
+    text-align: center;
+    font-family:  Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+    color: #FDE15E;
+    background-color: #99CC00;
+}
+
+h2{
+    font-weight: disable;
+    text-align: left;
+    font-family:  Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+    color: #FDE15E;
+    background-color: #99CC00;;
+}
+
+ol, ul{
+    font-size: 18pt;
+}
+
+body{
+    background-color: #FAFAD2;
+    font-size: 16pt;
+    font-color: black;
+    font-family: Georgia, Garamond, serif; 
+}
+
+p{
+    font-family: Georgia, Garamond, serif
+}
+
+
+blockquote{
+    background-color: #FDE15E;
+    color: #CC3300;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a:visited{
+    color: #A4A400;
+}
+
+
+
+
