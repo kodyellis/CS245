@@ -1,0 +1,142 @@
+
+body { color: black;
+       font-family: verdana, tahoma, sans-serif;
+       background-image: url('background.png');
+       background-size: 100%;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       font-size: 8pt;
+      }
+
+h1 {  font-family: verdana, tahoma, sans-serif;
+      font-size: 28pt;
+      font-weight: bold;
+      text-shadow: 4px 4px #FF0000;
+   }
+
+.heading {  background-image: url('bannerbg.png');
+        background-repeat: repeat-x;
+        background-size: auto 83px;
+        font-size: 48pt;
+        color: red;
+        font-weight: bold;
+        margin: 0px;
+        border-radius: 16px;
+        width: 800pt;
+   }
+
+#mainspace {  width: 825pt;
+         height: 100%;
+         border: 4px;
+         border-color: gray;
+         border-style: solid;
+         border-radius: 20px;
+         margin-left: auto;
+         margin-right: auto;
+         overflow: auto;
+         position: relative;
+      }
+#section {  width: 550pt;
+            -moz-column-count: 3;
+            -moz-column-width: 47%;
+            -webkit-column-count: 2;
+            -webkit-column-width: 47%;
+            column-count: 2;
+            column-width: 47%;
+            border-spacing: 2%;
+            display: inline-block;
+            margin-top: 90px;
+            overflow: auto;
+         }
+
+#general{ float: right;
+            background-color: #A2B964;
+            margin-top: 300pt;
+            margin-right: 0px;
+            display: inline-block;
+            width: 240pt;
+            font: arial, sans-serif;
+            font-size: 8pt;
+            z-index: 2;
+            position: relative;
+            bottom:0;
+          }
+
+#information { margin: 10pt;
+        width: 240pt;
+      }
+
+#subspace{ position: absolute;
+         }
+
+
+
+#validation { float: right;
+         opacity: .5;
+         position: relative;
+      }
+
+
+.critic { margin-bottom: 20pt;
+        }
+
+.header { background-image: url('bannerbg.png');
+           background-repeat: repeat-x;
+           background-size: auto 50px;
+           position: relative;
+           top: 0px;
+           left: 0px;
+           right: 0px;
+
+         }
+
+.review {   color: black;
+            font-family: verdana, tahoma, sans-serif;
+            font-size: 8pt;
+            font-weight:bold;
+            background-color: #E8DC9B;
+            border: 4px;
+            border-color: gray;
+            border-style: solid;
+            border-radius: 10px;
+            padding: 8px;
+            display: inline-block;
+            margin-bottom: 0px;
+         }
+
+.info { font-style: italic;}
+
+dt,dd,dl { font-weight: bold;
+     margin-top: 10pt;
+   }
+
+p span 
+{
+    display: block;
+}
+
+img.status_icon {  float: left;
+                  padding-right: 5px;
+               }
+
+img.critic_icon {  float: left;
+                  padding: 5px;
+               }
+
+img.movie { float: right;
+            width: 240pt;
+            border-top-right-radius: 16px;
+            margin-left: 365pt;
+            margin-right: 55pt;
+            position: absolute;
+            height: 300pt;
+          }
+
+#footer{
+         background-color: #A2B964;
+         padding: 5px;
+         margin-bottom: 0px;
+         position: absolute;
+         bottom: 0;
+}
+
