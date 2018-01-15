@@ -1,0 +1,30 @@
+h1,h2,h3,h4,h5,h6{
+    font-weight: enable;
+    text-align: center;
+    font-family:  Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+    color: silver;
+}
+
+ol, ul{
+    font-size: 18pt;
+}
+
+body{
+    background-color: #FAFAD2;
+    font-size: 16pt;
+    font-color: black;
+    font-family: Georgia, Garamond, serif; 
+}
+
+p{
+    font-family: Georgia, Garamond, serif
+}
+
+
+a:visited{
+    color: #A4A400;
+}
+
+a:link{
+    color: blue;
+}
